@@ -1,0 +1,89 @@
+#footer {
+    padding-bottom: 65px;
+    display: flex;
+    justify-content: center;
+    background:rgb(85, 67, 150);
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+
+.column {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.column h4 {
+    color: beige;
+    margin:10px 0;
+
+    
+}
+
+.column a {
+    color: beige;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.column img {
+    display: inline-block;
+    margin: 0 .7rem;
+    width: 1.5rem;
+}
+
+.copy_right {
+    color: aliceblue;
+    background: blue;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    margin: 57px 0;
+}
+
+
+@media screen and (min-width:576px) {
+    .column {
+        flex: 25%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .copy_right {
+        margin: 0;
+    }
+
+}
+
+
+/* <footer id="footer">
+<div class="column">
+    <a href="#" class="link_footer">link</a>
+    <a href="#" class="link_footer">link</a>
+    <a href="#" class="link_footer">link</a>
+    <a href="#" class="link_footer">link</a>
+</div>
+<div class="column">
+    <a href="#" class="link_footer">link</a>
+    <a href="#" class="link_footer">link</a>
+    <a href="#" class="link_footer">link</a>
+    <a href="#" class="link_footer">link</a>
+</div>
+<div class="column">
+    <a href="#" class="link_footer">link</a>
+    <a href="#" class="link_footer">link</a>
+    <a href="#" class="link_footer">link</a>
+    <a href="#" class="link_footer">link</a>
+</div>
+<div class="column">
+    <a href="#" class="link_footer">redes sociales</a>
+    <a href="#" class="link_footer">redes sociales</a>
+    <a href="#" class="link_footer">redes sociales</a>
+</div>
+</footer> */

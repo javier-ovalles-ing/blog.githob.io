@@ -1,0 +1,40 @@
+#banner_ads {
+    position: relative;
+}
+
+.ads {
+    height: 300px;
+    width: 80%;
+    background-color: #c2b7b7;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (min-width:768px) {
+    .container-ads {
+        position: sticky;
+        top: 30px;
+        padding: 5px;
+    }
+    .ads {
+        height: 200px;
+        padding: 5px;
+        margin-top: 77px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+/* <aside id="banner_ads" >
+            <div class="ads">anuncio</div>
+            <div class="ads">anuncio</div>
+</aside> */

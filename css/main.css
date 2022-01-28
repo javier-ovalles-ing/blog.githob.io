@@ -1,0 +1,55 @@
+#main {
+    width: 100%;    
+}
+
+#main h1 {
+    margin: 1rem;
+    border-bottom: solid;
+}
+.main_img {
+    width: 100%;   
+}
+
+h2 {
+    margin: 1rem;
+
+}
+.section_img {
+    margin:3rem auto;
+      
+}
+
+
+
+@media screen and (min-width:768px) {
+    .section_img  {
+        float: left;
+        width: 300px;
+        margin: 0 .5rem .5rem 0; 
+       
+    }
+}
+
+
+/* <main id="main" class="col-75-50">
+            <section class="" id="tema_a">
+                <h1>Titulo del Tema A</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aperiam velit illo cumque aliquam ipsa minus quia magni repellendus quae. Architecto voluptate, commodi ut possimus fugiat asperiores iusto exercitationem sit.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aperiam velit illo cumque aliquam ipsa minus quia magni repellendus quae. Architecto voluptate, commodi ut possimus fugiat asperiores iusto exercitationem sit.</p>
+            </section>
+            <hr>
+            <section class="" id="tema_b">
+                <h1>Titulo del Tema B</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aperiam velit illo cumque aliquam ipsa minus quia magni repellendus quae. Architecto voluptate, commodi ut possimus fugiat asperiores iusto exercitationem sit.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aperiam velit illo cumque aliquam ipsa minus quia magni repellendus quae. Architecto voluptate, commodi ut possimus fugiat asperiores iusto exercitationem sit.</p>
+            </section>
+            <hr>
+            <section class="" id="tema_c">
+                <h1>Titulo del Tema A</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aperiam velit illo cumque aliquam ipsa minus quia magni repellendus quae. Architecto voluptate, commodi ut possimus fugiat asperiores iusto exercitationem sit.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aperiam velit illo cumque aliquam ipsa minus quia magni repellendus quae. Architecto voluptate, commodi ut possimus fugiat asperiores iusto exercitationem sit.</p>
+            </section>
+        </main> */

@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+ 
+
+}
+
+#recommendations {
+  flex: 100%;
+  order: 3;
+}
+
+#main {
+  flex: 100%;
+  margin: 20px;
+  order: 1;
+  margin-bottom: 50px;
+}
+
+#banner_ads {
+  flex: 100%;
+  order: 2;
+ 
+}
+
+
+@media screen and (min-width:768px) {
+  #recommendations {
+    flex: 100%;
+    order: 3;
+    display: flex;
+    justify-content: center;
+  }
+
+  #main {
+    flex: 60%;
+
+    order: 1;
+  }
+
+  #banner_ads {
+    flex: 25%;
+    order: 2;
+
+  }
+
+}
+
+@media screen and (min-width:992px) {
+  #recommendations {
+    flex: 25%;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+  }
+
+  #main {
+    flex: 48%;
+    order: 2;
+  }
+
+  #banner_ads {
+    flex: 23%;
+    order: 3;
+  }
+
+}

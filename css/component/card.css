@@ -1,0 +1,73 @@
+
+.card_recomenations {
+    position: relative;
+    max-width: 430px;
+    height: 150px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:2rem auto;
+    text-overflow: ellipsis;
+    
+}
+
+.card_recomenations img {
+    width: 50%;
+    height: 100%;
+}
+
+.card_recomenations p {
+    width: 100;
+    padding:.5rem;
+    text-overflow: ellipsis;
+}
+
+.btn-card {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: .5rem;
+}
+
+
+/*
+            <div class="card_recomenations">
+
+                <img src="img/img_recomendacion1.jpeg" alt="img recomendacion">
+                <p class="text-recomentation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, facere!</p>
+                <button class="btn-card">leer mas</button>
+            </div>
+
+*/
+
+@media screen and (min-width:768px) {
+    .card_recomenations {
+        display: inline-block;
+        flex-direction: column;
+        max-width: 300px;
+        height: 430px;
+        margin:20px;
+    }    
+
+    .card_recomenations img {
+
+        width: 100%;
+        height: 50%;
+    }
+
+    .card_recomenations p {
+        width: 100%;
+        height: 10%;
+        margin:5px;
+        text-overflow: ellipsis;
+    }
+
+    .btn-card {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin:2rem;
+    }
+}
+

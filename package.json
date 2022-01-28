@@ -1,0 +1,24 @@
+{
+  "name": "practicagit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "limpiacss": "purgecss --css ./icons/fontawesome/css/all.min.css --content *.html --output ./dist/css/"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javier-ovalles-ing/PracticaGit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javier-ovalles-ing/PracticaGit/issues"
+  },
+  "homepage": "https://github.com/javier-ovalles-ing/PracticaGit#readme",
+  "devDependencies": {
+    "purgecss": "^4.1.3"
+  }
+}

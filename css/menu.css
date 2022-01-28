@@ -1,0 +1,111 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.5rem;
+  width: 100%;
+  background-color: rgb(90, 89, 179);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0 2rem;
+  z-index: 2;
+}
+
+ul {
+  display: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(49, 48, 131);
+  ;
+  position: absolute;
+  bottom: 56px;
+  left: 0;
+  width: 100%;
+  animation: 0.1s ease-in-out 0s 1 normal none running expand;
+}
+
+li {
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgba(30, 27, 197, 0.753);
+}
+
+.active {
+  display: block !important;
+}
+
+.btn {
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 1.59;
+  background: rgb(82, 80, 161);
+  border: 1px solid black;
+  border-radius: .2rem;
+  font: bold;
+}
+
+@keyframes expand {
+
+  0% {
+    transform: scale(0, 1);
+    opacity: 0.1;
+  }
+
+  100% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+
+/*-------- sm ---------*/
+
+@media screen and (min-width:576px) {
+
+
+
+  .nav {
+    top: 0;
+  }
+
+  ul {
+    display: block;
+    position: static;
+    width: initial;
+    height: 100%;
+    animation:none;
+  }
+
+  li {
+    height: 100%;
+    width: initial;
+  }
+
+  a {
+    height: 100%;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .enable {
+    display: block !important;
+  }
+
+}

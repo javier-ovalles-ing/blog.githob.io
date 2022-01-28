@@ -1,0 +1,62 @@
+.news-card {
+  display:flex;  
+  flex-direction: row;
+  height: 200px;
+  width: 90%;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin:2rem auto;
+  border-radius: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.news-card .img-news-card{
+    width: 48%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news-card .body-news-card {
+    width: 45%;
+    margin: 10px;
+}
+
+.news-card .btn-news-card {
+    position: absolute;
+    right:0;
+    bottom: 0;
+    margin:15px;
+}
+
+@media screen and (min-width:768px) {
+    .news-card .img-news-card{
+        width: 28%;
+        height: 100%;
+        object-fit: cover;
+       
+    }
+
+    .news-card .body-news-card {
+        width: 45%;
+        margin: 30px;
+    }
+}
+
+
+/*
+     <div class="news-card">
+                <div class="img-news-card">
+                    <img src="./img/imagen_cesion_a.jpg" alt="imagen de noticias" />
+                </div>
+                <div class="body-news-card">
+                    <h1>titulo</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odit autem, inventore minima itaque magni, fuga cumque temporibus aperiam tempora consequuntur in amet iusto fugiat vitae eveniet. Quisquam, officiis aliquid!</p>
+                </div>
+                <footer class="footer-news-card">
+                    <button type="btn-news-card">Leer mas</button>
+                </footer>
+     </div>
+
+*/
